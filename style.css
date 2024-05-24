@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    height: 750px;
+    height: 720px;
     margin: 0px ;
     padding: 24px 15%;
     font-family:  Arial, Helvetica, sans-serif;
@@ -69,7 +69,7 @@ button{
     text-align: center;
 }
 .info{
-    height: 600px;
+    height: 660px;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@ button{
 .images{
     display: flex;
     justify-content: space-between;
-    margin: 50px 360px;
+    margin: 50px 400px;
 
 }
 .image-card{
@@ -107,4 +107,22 @@ button{
     border-radius: 16px;
     border-width: 3px;
     object-fit:cover;
+}
+.quote{
+    background-color: #E5E7EB;
+    height: 280px;
+    padding: 150px 400px;
+    color:#1F2937;
+}
+.quote p{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 48px;
+}
+.quote h6{
+    font-size: 36px;
+    margin-left: 680px;
+}
+.enroll{
+    background-color: white;
 }
